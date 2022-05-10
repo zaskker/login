@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Oswald:wght@600&family=Radio+Canada:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.container {
+    height: 100vh;
+    background: #E7CFCD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #9F9AA4;
+    box-shadow: 0 0 10px 10px #B5C9C3;
+    padding: 50px;
+    border-radius: 15px;
+    gap: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login img {
+    width: 150px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+input {
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #CFD8D7;
+    margin: 20px 0;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #CFD8D7;
+    border: 1px solid #CFD8D7;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.login a:hover{
+    background: #CFD8D7;
+    color: #CAB1BD;
+    transition: all 0.5s;
+}
